@@ -8,7 +8,7 @@ def take_a_number(katz_deli, name)
   return "Welcome, #{name}. You are number #{katz_deli.size} in line."
 end
 
-def line 
+def line(katz_deli)
   new_arr = []
   counter = 1 
   katz_deli.each_with_index do |counter, name| 
