@@ -10,7 +10,7 @@ end
 
 def line(katz_deli)
   new_arr = []
-  katz_deli.each_with_index do |index +1, name| 
+  katz_deli.each_with_index do |index, name| 
     new_arr.push("#{counter}. #{name}")
   end
    if(katz_deli.length === 0) 
