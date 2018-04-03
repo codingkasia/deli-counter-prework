@@ -10,12 +10,12 @@ end
 
 def line(katz_deli)
   new_arr = []
-  katz_deli.each_with_index(1) do |name, index| 
-    new_arr.push("#{index}. #{name}")
-  end
    if(katz_deli.length === 0) 
     puts "There is nobody waiting to be served!"
   else 
+    katz_deli.each_with_index(1) do |name, index| 
+    new_arr.push("#{index}. #{name}")
+  end
   puts "The line is currently: #{new_arr.join(" ")}"
  end 
  end
