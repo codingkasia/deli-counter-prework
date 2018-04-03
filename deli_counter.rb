@@ -10,9 +10,8 @@ end
 
 def line(katz_deli)
   new_arr = []
-  katz_deli.each_with_index do |counter, name| 
+  katz_deli.each_with_index do |index +1, name| 
     new_arr.push("#{counter}. #{name}")
-    counter += 1 
   end
    if(katz_deli.length === 0) 
     puts "There is nobody waiting to be served!"
