@@ -11,7 +11,7 @@ end
 def line 
   new_arr = []
   counter = 1 
-  katz_deli.each_with_index do |idx, name| 
+  katz_deli.each_with_index do |counter, name| 
     new_arr.push("#{counter}. #{name}")
     counter += 1 
   end
