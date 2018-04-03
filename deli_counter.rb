@@ -11,7 +11,7 @@ end
 def line(katz_deli)
   new_arr = []
    if(katz_deli.length === 0) 
-    puts "There is nobody waiting to be served!"
+    puts "The line is empty"
   else 
     katz_deli.each_with_index do |name, index| 
     new_arr.push("#{index + 1}. #{name}")
